@@ -1,0 +1,39 @@
+commit 468d4f98b146626b0d65028261a255e37b47edb0 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sun Apr 9 18:40:07 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 71bd5d37c58a56a0ac87dc36e588ca261711ab1f
+Merge: 54788ea 80aac3c
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sun Apr 9 19:09:25 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 80aac3c4683868cde22e5136570a1310a8efb3db (origin/bug2, bug2)
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sun Apr 9 18:39:11 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 54788ea1a22d736d4ff574fe884a082a085edd1d (origin/bug1, bug1)
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sun Apr 9 18:38:18 2023 +0200
+
+    Fix wrong loop for reading
+
+commit b931ab56ed4a3fb2addb6654b3f147232c27ddf7
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sat Apr 8 20:28:29 2023 +0200
+
+    Add java class
+
+commit d4575a9da2ea0d67541e30d04fba5285806ed4e6
+Author: JelenaUgrenovic <130100521+JelenaUgrenovic@users.noreply.github.com>
+Date:   Sat Apr 8 20:18:32 2023 +0200
+
+    Initial commit
+
+commit f7a840c235d733c6afe3632143cd5fb285cbc2ed
+

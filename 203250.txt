@@ -1,0 +1,50 @@
+Прва Лаб Вежба по Софтверско Инженерство
+
+https://github.com/JelenaUgrenovic/SI_2023_lab1_203250.git
+
+cd Desktop
+mkdir SI_2023_lab1_203250-овозможува креирање на празен директориум
+cd SI_2023_lab1_203250/-Овозможува влез во директориумот 
+git init-овозможува креирање на локален git репозиториум од директориумот.
+5.git remote add origin https://github.com/JelenaUgrenovic/SI_2023_lab1_203250.git.-овозможува локалниот репозиториум 
+да го поврземе со remote репозиториумот.
+6.nano README.md-додавање на датотека
+git add . -овозможува датотеката да ја додадеме во staging area каде што ќе биде спремна за да и направиме commit.
+git commit -m "Initial commit"-команда со која се прави commit на датотеката што се наоѓа во staging area каде што со делот -m од командата додаваме порака на commit-от.
+git push origin master-овозможува синхронизација на локалниот со remote репозиториумот, и поставување на сите локални commit-и на remote репозиториумот.
+7.nano SILab1.java-додавање на фајл.
+git commit -m "Add java class"-команда со која се прави commit на датотеката што се наоѓа во staging area каде што со делот -m од командата додаваме порака на commit-от.
+8.git push origin master-овозможува синхронизација на локалниот со remote репозиториумот, и поставување на сите локални commit-и на remote репозиториумот.
+9.git branch bug1
+git branch bug2
+git branch bug3
+-овозможува креирање на три нови гранки.
+10.git checkout bug1-овозможува префрлање на гранката bug1 од гранката на која што моментално се наоѓаме. 
+11.nano SILab1.java-овозможува влез во java file.
+git add .
+git commit -m "Fix wrong loop for reading"
+12.git checkout bug2-овозможува префрлање на гранката bug2 од гранката на која што моментално се наоѓаме.
+13.nano SIlab1.java-овозможува влез во java file.
+git add .
+git commit -m "Fix wrong condition in filterOddNumbers"-команда со која се прави commit на датотеката што се наоѓа во staging area каде што со делот -m од командата додаваме порака на commit-от.
+14.git checkout bug3-овозможува префрлање на гранката bug3 од гранката на која што моментално се наоѓаме.
+15.nano SIlab1.java -овозможува отварање на веќе додадената датотека SIlab1.java
+git add .
+git commit -m "Fix method sumEvenNumbers"-команда со која се прави commit на датотеката што се наоѓа во staging area каде што со делот -m од командата додаваме порака на commit-от.
+16.git push origin bug1
+git push origin bug2
+git push origin bug3
+-овозможува синхронизација на сите гранки со оддалечениот репозиториум
+17.git checkout master-овозможува префрлување на гранката master.
+18.git merge bug1-овозможува спојување на гранката bug1 кон гранката master, при овој чекор не настана конфликт и се случи fast-forward спојување.
+19. git push origin master-овозможува синхронизација на сите гранки со оддалечениот репозиториум
+20.git merge bug2-овозможува спојување на гранката bug2 кон гранката master, при овој чекор не настана конфликт и спојувањето се случи преку Ort стратегија.
+22.git checkout bug3-овозможува префрлување на гранката bug3
+23.git rebase master-спојување на гранката bug3 кон гранката master со цел да се избегне потенцијалниот merge commit.
+24.git checkout master-овозможува префрлање на гранката master.
+25.git merge bug3-овозможува спојување на гранката bug3 кон гранката master, при овој чекор не настана конфликт и се случи fast-forward спојување.
+26.git push origin bug1
+git push origin bug2
+git push origin --force bug3
+-Овозможува синхронизација на сите гранки со оддалечениот репозиториум (за гранката bug3 користев force)
+27.nano logs.txt-овозможува додавање на нова датотека logs.txt.
